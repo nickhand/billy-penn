@@ -53,7 +53,8 @@ def load_city_departments(include_line_items=False, include_aliases=False):
     """Load City departments."""
 
     depts = []
-    data = json.load((DATA_DIR / "depts.json").open("r"))
+    with (DATA_DIR / "depts.json").open("r") as ff:
+        data = json.load(ff)
     for d in data:
 
         # Pop the line items
@@ -92,6 +93,8 @@ def load_city_departments(include_line_items=False, include_aliases=False):
                 aliases = matches["dept_name"].tolist()
                 if row["name"] not in aliases:
                     aliases.append(row["name"])
+                if row["abbreviation"] not in aliases:
+                    aliases.append(row["abbreviation"])
 
             aliases_column.append(aliases)
 
@@ -100,9 +103,11 @@ def load_city_departments(include_line_items=False, include_aliases=False):
             out.join(out["aliases"].explode().rename("alias"))
             .drop(columns=["aliases"])
             .reset_index(drop=True)
+            .assign(alias=lambda df: df["alias"].fillna(df["name"]))
+            .drop_duplicates()
         )
 
-    return out
+    return out.rename(columns={"name": "dept_name"})
 
 
 @lru_cache(maxsize=None)

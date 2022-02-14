@@ -18,7 +18,7 @@
     "line-items": [
       {
         "name": "OIT: 911",
-        "dept_code": "OIT911"
+        "dept_code": "04911"
       }
     ]
   },
@@ -136,6 +136,10 @@
       {
         "name": "Public Property: Utilities",
         "dept_code": "20U"
+      },
+      {
+        "name": "Public Property: Telecommunications",
+        "dept_code": "20T"
       }
     ]
   },
@@ -246,11 +250,23 @@
       },
       {
         "name": "Finance: School District Contribution",
-        "dept_code": "SD"
+        "dept_code": "35SD"
       },
       {
         "name": "Finance: Witness Fees",
         "dept_code": "35WF"
+      },
+      {
+        "name": "Finance: Budget Stabilization Reserve",
+        "dept_code": "35BSR"
+      },
+      {
+        "name": "Finance: Recession Reserve",
+        "dept_code": "35RR"
+      },
+      {
+        "name": "Finance: Federal Grant Reserve",
+        "dept_code": "35FGR"
       }
     ]
   },
@@ -341,6 +357,11 @@
     "abbreviation": "Free Library"
   },
   {
+    "name": "Board of Pensions",
+    "dept_code": "53",
+    "abbreviation": "Pensions"
+  },
+  {
     "name": "Commission on Human Relations",
     "dept_code": "54",
     "abbreviation": "Human Relations"
@@ -353,6 +374,10 @@
     "name": "Office of Human Resources",
     "dept_code": "56",
     "abbreviation": "OHR"
+  },
+  {
+    "name": "Zoning Code Commission",
+    "dept_code": "57"
   },
   {
     "name": "Office of Arts, Culture, and the Creative Economy",
@@ -390,6 +415,10 @@
     "name": "Office of Children and Families",
     "dept_code": "66",
     "abbreviation": "OCF"
+  },
+  {
+    "name": "Water, Sewer, and Stormwater Rate Board",
+    "dept_code": "67"
   },
   {
     "name": "Register of Wills",
