@@ -59,8 +59,10 @@ def load_city_departments(include_line_items=False, include_aliases=False):
                 depts.append(Department(**line_item))
 
     # Create the datafrmae
-    out = pd.DataFrame([dict(dept) for dept in depts]).replace(
-        to_replace=[None], value=np.nan
+    out = (
+        pd.DataFrame([dict(dept) for dept in depts])
+        .replace(to_replace=[None], value=np.nan)
+        .drop_duplicates(subset=["dept_code"])
     )
 
     assert out["dept_code"].duplicated().sum() == 0

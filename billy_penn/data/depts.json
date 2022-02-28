@@ -18,7 +18,7 @@
     "line-items": [
       {
         "name": "OIT: 911",
-        "dept_code": "04911"
+        "dept_code": "04-911"
       }
     ]
   },
@@ -29,7 +29,7 @@
     "line-items": [
       {
         "name": "Mayor's Office: Scholarships",
-        "dept_code": "05S"
+        "dept_code": "05-S"
       }
     ]
   },
@@ -53,7 +53,7 @@
     "line-items": [
       {
         "name": "MDO: Legal Services",
-        "dept_code": "10LS"
+        "dept_code": "10-LS"
       }
     ]
   },
@@ -69,15 +69,15 @@
     "line-items": [
       {
         "name": "Streets: Disposal",
-        "dept_code": "12D"
+        "dept_code": "12-D"
       },
       {
         "name": "Streets: Sanitation",
-        "dept_code": "12S"
+        "dept_code": "12-S"
       },
       {
         "name": "Streets: Transportation",
-        "dept_code": "12T"
+        "dept_code": "12-T"
       }
     ]
   },
@@ -103,7 +103,7 @@
     "line-items": [
       {
         "name": "Parks & Recreation: Stadium Complex",
-        "dept_code": "16SC"
+        "dept_code": "16-SC"
       }
     ]
   },
@@ -127,19 +127,19 @@
     "line-items": [
       {
         "name": "Public Property: Space Rentals",
-        "dept_code": "20SR"
+        "dept_code": "20-SR"
       },
       {
         "name": "Public Property: SEPTA Subsidy",
-        "dept_code": "20SS"
+        "dept_code": "20-SS"
       },
       {
         "name": "Public Property: Utilities",
-        "dept_code": "20U"
+        "dept_code": "20-U"
       },
       {
         "name": "Public Property: Telecommunications",
-        "dept_code": "20T"
+        "dept_code": "20-T"
       }
     ]
   },
@@ -165,7 +165,7 @@
     "line-items": [
       {
         "name": "Fleet: Vehicle Lease/Purchases",
-        "dept_code": "25V"
+        "dept_code": "25-V"
       }
     ]
   },
@@ -176,7 +176,7 @@
     "line-items": [
       {
         "name": "L&I: Demolition",
-        "dept_code": "26D"
+        "dept_code": "26-D"
       }
     ]
   },
@@ -217,56 +217,100 @@
     "abbreviation": "Finance",
     "line-items": [
       {
-        "name": "Finance: Budget Stabilization",
-        "dept_code": "35BS"
-      },
-      {
         "name": "Finance: Community College Subsidy",
-        "dept_code": "35CC"
+        "dept_code": "35-CC"
       },
       {
         "name": "Finance: Employee Benefits",
-        "dept_code": "35EB"
+        "dept_code": "35-EB",
+        "abbreviation": "Employee Benefits"
       },
       {
         "name": "Finance: Hero Scholarship Awards",
-        "dept_code": "35HA"
+        "dept_code": "35-HA"
       },
       {
         "name": "Finance: Indemnities",
-        "dept_code": "35IN"
+        "dept_code": "35-IN"
       },
       {
         "name": "Finance: PGW Reimbursement",
-        "dept_code": "35PGW"
+        "dept_code": "35-PGW"
       },
       {
         "name": "Finance: Refunds",
-        "dept_code": "35R"
+        "dept_code": "35-R"
       },
       {
         "name": "Finance: Reg #32",
-        "dept_code": "35R32"
+        "dept_code": "35-R32"
       },
       {
         "name": "Finance: School District Contribution",
-        "dept_code": "35SD"
+        "dept_code": "35-SD"
       },
       {
         "name": "Finance: Witness Fees",
-        "dept_code": "35WF"
+        "dept_code": "35-WF"
       },
       {
         "name": "Finance: Budget Stabilization Reserve",
-        "dept_code": "35BSR"
+        "dept_code": "35-BSR"
       },
       {
         "name": "Finance: Recession Reserve",
-        "dept_code": "35RR"
+        "dept_code": "35-RR"
       },
       {
         "name": "Finance: Federal Grant Reserve",
-        "dept_code": "35FGR"
+        "dept_code": "35-FGR"
+      }
+    ]
+  },
+  {
+    "name": "Finance: Employee Benefits",
+    "dept_code": "35-EB",
+    "abbreviation": "Employee Benefits",
+    "line-items": [
+      {
+        "name": "Employee Benefits: Unemployment Compensation",
+        "dept_code": "35-EB-UC"
+      },
+      {
+        "name": "Employee Benefits: Employee Disability",
+        "dept_code": "35-EB-DIS"
+      },
+      {
+        "name": "Employee Benefits: Pension Obligation Bonds",
+        "dept_code": "35-EB-POB"
+      },
+      {
+        "name": "Employee Benefits: Pension",
+        "dept_code": "35-EB-PEN"
+      },
+      {
+        "name": "Employee Benefits: FICA",
+        "dept_code": "35-EB-FICA"
+      },
+      {
+        "name": "Employee Benefits: Flex Cash Payments",
+        "dept_code": "35-EB-FLEX"
+      },
+      {
+        "name": "Employee Benefits: Health/Medical",
+        "dept_code": "35-EB-HM"
+      },
+      {
+        "name": "Employee Benefits: Group Life Insurance",
+        "dept_code": "35-EB-GLI"
+      },
+      {
+        "name": "Employee Benefits: Group Legal",
+        "dept_code": "35-EB-GL"
+      },
+      {
+        "name": "Employee Benefits: Tool Allowance",
+        "dept_code": "35-EB-TA"
       }
     ]
   },
@@ -302,11 +346,11 @@
     "line-items": [
       {
         "name": "Commerce: Convention Center Subsidy",
-        "dept_code": "42CC"
+        "dept_code": "42-CC"
       },
       {
         "name": "Commerce: Economic Stimulus",
-        "dept_code": "42ES"
+        "dept_code": "42-ES"
       }
     ]
   },
