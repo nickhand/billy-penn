@@ -264,6 +264,10 @@
       {
         "name": "Finance: Federal Grant Reserve",
         "dept_code": "35-FGR"
+      },
+      {
+        "name": "Finance: Labor Reserve",
+        "dept_code": "35-LR"
       }
     ]
   },
