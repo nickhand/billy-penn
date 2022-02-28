@@ -311,6 +311,10 @@
       {
         "name": "Employee Benefits: Tool Allowance",
         "dept_code": "35-EB-TA"
+      },
+      {
+        "name": "Employee Benefits: Anticipated Workforce Savings",
+        "dept_code": "35-EB-AWS"
       }
     ]
   },
