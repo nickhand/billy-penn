@@ -54,6 +54,10 @@
       {
         "name": "MDO: Legal Services",
         "dept_code": "10-LS"
+      },
+      {
+        "name": "MDO: Citizens Police Oversight Commission",
+        "dept_code": "10-CP"
       }
     ]
   },
@@ -264,6 +268,10 @@
       {
         "name": "Finance: Labor Reserve",
         "dept_code": "35-LR"
+      },
+      {
+        "name": "Finance: Housing Trust Fund",
+        "dept_code": "35-HTF"
       }
     ]
   },
@@ -416,7 +424,13 @@
   },
   {
     "name": "Civil Service Commission",
-    "dept_code": "55"
+    "dept_code": "55",
+    "line-items": [
+      {
+        "name": "Civil Service Commission: Provision for Future Labor Obligations",
+        "dept_code": "55-L"
+      }
+    ]
   },
   {
     "name": "Office of Human Resources",
