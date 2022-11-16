@@ -281,6 +281,10 @@
     "abbreviation": "Employee Benefits",
     "line-items": [
       {
+        "name": "Employee Benefits: COVID-19 Funeral Costs",
+        "dept_code": "35-COVID"
+      },
+      {
         "name": "Employee Benefits: Unemployment Compensation",
         "dept_code": "35-EB-UC"
       },
