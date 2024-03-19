@@ -58,6 +58,14 @@
       {
         "name": "MDO: Citizens Police Oversight Commission",
         "dept_code": "10-CP"
+      },
+      {
+        "name": "MDO: Clean and Green",
+        "dept_code": "10-CG"
+      },
+      {
+        "name": "MDO: Public Safety",
+        "dept_code": "10-PS"
       }
     ]
   },
